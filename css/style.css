@@ -3,7 +3,7 @@ html, body {
     line-height: 100%;
     font-weight: 500;
     color: #252525;
-    overflow: hidden;
+    
 
 }
 
@@ -28,7 +28,7 @@ html, body {
 .wrapper {
     min-height: 100%;
     width: 100%;
-    overflow: hidden;
+    
 
 }
 
@@ -427,9 +427,20 @@ html, body {
     }
 }
 
+@media (min-width: 780px) {
+    html, body {
+        overflow: hidden; 
+    }
+}
+
 @media (max-width: 779px) {
     html, body {
-        overflow: auto;
+        overflow-x: hidden;
+        overflow-y: auto; 
+    }
+    
+    .wrapper {
+        overflow-y: auto; 
     }
 
     .container {
