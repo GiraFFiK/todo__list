@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "Kanit";
+    src: local("Kanit"),
+        url("../fonts/Kanit/Kanit-Medium.ttf") format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+        url("../fonts/Inter/static/Inter_18pt-Medium.ttf") format('ttf');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
