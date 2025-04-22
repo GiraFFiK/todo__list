@@ -428,6 +428,10 @@ html, body {
 }
 
 @media (max-width: 779px) {
+    html, body {
+        overflow-y: auto;
+    
+    }
 
     .container {
         max-width: 580px;
@@ -448,10 +452,7 @@ html, body {
 }
 
 @media (max-width: 579px) {
-        html, body {
-        overflow-y: auto;
-    
-    }
+        
     
     .container {
         max-width: 380px;
